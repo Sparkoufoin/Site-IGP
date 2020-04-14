@@ -1,0 +1,93 @@
+/* 
+ Theme Name:   Aagaz Startup Child
+ Theme URI:    
+ Description:  
+ Author:       admin
+ Author URI:   
+ Template:     aagaz-startup
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+ /* == Add your own styles below this line ==
+--------------------------------------------*/
+.search-box {
+    background: #d50000;
+    height:87px
+}
+
+.main-navigation li li {
+	background-color: #0076c3;
+}
+.main-navigation ul ul li a{
+	color: white;
+	border-bottom: solid;
+  
+}
+.main-navigation ul ul li a:hover{
+	color: #f8b208;
+  
+}
+
+.site-footer {
+  background-color: #960000 ;
+color: #000;}
+
+.main-header{
+	background:#0076c3;
+}
+.main-header a {
+color:white;
+font-size:16px;
+}
+
+.main-header a:hover{
+	color:#f8b208;
+}
+.topbar{
+	background-color:#f8b208;
+}
+.copyright{
+	background-color:#f8b208;
+}
+.logo{
+	position:initial; 
+	padding:0PX; 
+	background-color: transparent; 
+	box-shadow: none;
+	border-bottom:#0076c3;
+	text-align: center;
+}
+.topbar span.call,
+.topbar span.emain {
+font-size:12px}
+.site-footer h3 {
+	text-align:center;
+}
+.topbar span.call,
+.topbar span.emain {
+font-size:12px}
+.site-footer h3 {
+	text-align:center;
+}
+h1{text-align:center;}
+
+h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1:before,
+h1:after {
+    content: '';
+    border-top: 15px solid #960000;
+    margin: 0 0 0 0;
+    flex: 1 0 20px;
+}
+
+h1:after {
+    margin: 0 0 0 20px;
+}
