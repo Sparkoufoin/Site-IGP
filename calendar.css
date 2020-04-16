@@ -15958,3 +15958,27 @@ body.mec-dark-mode .mec-single-modern .mec-single-event-bar {
 .mec-calendar .mec-calendar-side .mec-previous-month:hover {
     color: #00395a;
 }
+.mec-calendar dl{
+    width: 560px;
+}
+.mec-calendar-events-side {
+    background-color: #D78B05;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    border-radius: 34px;
+
+}
+.mec-calendar .mec-calendar-events-side .mec-table-side-title, .mec-calendar-events-sec{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    background-color: #D78B05;
+}
+.mec-calendar .mec-calendar-events-side .mec-table-side-day {
+border-color: #fff;
+}
+.mec-color{
+    color: #fff;
+}
+.mec-calendar .mec-event-article{
+    background-color: #FAE69D;
+}
