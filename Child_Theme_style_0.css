@@ -1,0 +1,41 @@
+/*----------! Partie Post du site !----------*/
+
+
+body{
+	background-color: #00395a;
+	margin-top: 0px;
+	z-index: -2;
+}
+
+.mec-box-calendar.mec-calendar 
+.mec-calendar-events-side{
+
+    display: inline-block;
+    margin-top: 0px;
+}
+
+h1{
+	color:white;
+	margin-top: 15px;
+}
+
+h2::before{
+	background-color: #00395a;
+	z-index: -1;
+	position: absolute;
+}
+
+.sp-pc-post-box{
+	background-color: #fff;
+	height: 380px;
+}
+
+
+
+/*----------! Partie Copyright Wordpress cachée !----------*/
+
+
+
+.copyright{
+	display:none;
+}
