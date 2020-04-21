@@ -45,3 +45,53 @@ function header_widgets_init() {
 
 add_action( 'widgets_init', 'header_widgets_init' );
 
+
+function header_widgets_init() {
+
+  register_sidebar( array(
+    'name'          => __( 'Bloc 1' ),
+    'id'            => 'bloc1',
+    'description'   => __( 'Bloc 1 page accueuil' ),
+    'before_widget' => '<aside class="bloc1">',
+    'after_widget'  => '</aside>',
+    'before_title'  => '<h2 class="bloc1">',
+    'after_title'   => '</h2>',
+  ) );
+}
+function header_widgets_init() {
+
+  register_sidebar( array(
+    'name'          => __( 'Bloc 2' ),
+    'id'            => 'bloc2',
+    'description'   => __( 'Bloc 2 page accueuil' ),
+    'before_widget' => '<aside class="bloc2">',
+    'after_widget'  => '</aside>',
+    'before_title'  => '<h2 class="bloc2">',
+    'after_title'   => '</h2>',
+  ) );
+}
+function header_widgets_init() {
+
+  register_sidebar( array(
+    'name'          => __( 'Bloc 3' ),
+    'id'            => 'bloc3',
+    'description'   => __( 'Bloc 3 page accueuil' ),
+    'before_widget' => '<aside class="bloc3">',
+    'after_widget'  => '</aside>',
+    'before_title'  => '<h2 class="bloc3">',
+    'after_title'   => '</h2>',
+  ) );
+}
+function header_widgets_init() {
+
+  register_sidebar( array(
+    'name'          => __( 'Bloc 4' ),
+    'id'            => 'bloc4',
+    'description'   => __( 'Bloc 4 page accueuil' ),
+    'before_widget' => '<aside class="bloc4">',
+    'after_widget'  => '</aside>',
+    'before_title'  => '<h2 class="bloc4">',
+    'after_title'   => '</h2>',
+  ) );
+}
+
