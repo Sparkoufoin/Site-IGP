@@ -1,0 +1,314 @@
+/* 
+ Theme Name:   Aagaz Startup Child
+ Theme URI:    
+ Description:  
+ Author:       admin
+ Author URI:   
+ Template:     aagaz-startup
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+ /* == Add your own styles below this line ==
+--------------------------------------------*/
+/*----------!  Header  !----------*/
+
+.search-box {
+    background: #d50000;
+    height:87px
+}
+
+.main-navigation li li {
+	background-color: #0076c3;
+}
+.main-navigation ul ul li a{
+	color: white;
+	border-bottom: solid;
+  
+}
+.main-navigation ul ul li a:hover{
+	color: #f8b208;
+  
+}
+.main-header{
+	background:#0076c3;
+}
+
+.main-header a {
+	color:white;
+	font-size:14px;
+}
+.main-navigation a {
+	padding:8px
+}
+.main-header a:hover{
+	color:#f8b208;
+}
+.topbar{
+	background-color:#f8b208;
+} 
+.logo{
+	position:initial; 
+	padding:0PX; 
+	background-color: transparent; 
+	box-shadow: none;
+	border-bottom:#0076c3;
+	text-align: center;
+}
+.topbar span.call,
+.topbar span.emain {
+	font-size:12px}
+
+/*----------!  Footer  !----------*/
+
+.site-footer{
+ 	background-color: #960000 ;
+	color: #000;}
+
+.copyright{
+	background-color:#f8b208;
+}
+
+.site-footer h3 {
+	text-align:center;
+    font-size:17px;
+}
+
+.widget-area p{
+	font-size:14px;	
+    height:55px;
+}
+
+/*----------!  Bandeau H1  !----------*/
+h1{
+	text-align:center;
+}
+
+h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1:before,
+h1:after {
+    content: '';
+    border-top: 13px solid #960000;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+h1:after {
+    margin: 0 0 0 20px;
+}
+
+
+
+* {font-family:"Verdana"}
+
+.home h1{
+  display: none;
+}
+
+
+/*----------!  Ruban  !----------*/
+
+
+.ribbon {
+	 font-size: 25px !important;
+
+	 width: 50%;
+	 box-shadow: 0 10px 15px #000a;
+	 position: relative;
+	 background: #004b92;
+	 color: #fff;
+	 text-align: center;
+	 padding: 1em 2em; 
+	 margin: 2em auto 3em;
+}
+.ribbon:before, .ribbon:after {
+	 content: "";
+	 position: absolute;
+	 display: block;
+	 bottom: -1em;
+	 border: 1.5em solid #004b92;
+	 z-index: -2;
+
+}
+.ribbon:before {
+	 left: -2em;
+	 border-right-width: 1.5em;
+	 border-left-color: transparent;
+	 box-shadow: 10px 1px 10px #000a;
+}
+.ribbon:after {
+	 right: -2em;
+	 border-left-width: 1.5em;
+	 border-right-color: transparent;
+	box-shadow: -10px 1px 10px #000a;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+	 content: "";
+	 position: absolute;
+	 display: block;
+	 border-style: solid;
+	 border-color: #804f7c transparent transparent transparent;
+	 bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+	 left: 0;
+	 border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+	 right: 0;
+	 border-width: 1em 1em 0 0;
+}
+
+
+/*----------!  Calendrier  !----------*/
+
+
+.mec-calendar-side {
+    background-color: #00395a;
+}
+
+.mec-calendar .mec-calendar-header h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4897d8;
+}
+
+.mec-box-calendar.mec-calendar .mec-calendar-table-head dt {
+    border-top: 1px solid #eaeaea;
+    background-color: #00395a;
+    color: #4897d8;
+    font-size: 25px;
+}
+
+.mec-calendar dt,
+.mec-calendar .mec-has-event a {
+    display: table-cell;
+    transition: all .66s ease;
+    color: #fff;
+    background: #00395a;
+    border-radius: 44px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.mec-calendar .mec-calendar-row dt:hover {
+    background: #fff;
+    color: #00395a;
+}
+
+.mec-calendar .mec-has-event:after {
+    background-color: #94d3ff;
+}
+
+.mec-calendar .mec-selected-day,
+.mec-calendar .mec-selected-day:hover {
+    background-color: #94d3ff;
+}
+
+.mec-calendar .mec-calendar-side .mec-next-month,
+.mec-calendar .mec-calendar-side .mec-previous-month {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    min-width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background: #00395a;
+    color: #c4ccd1;
+    font-size: 18px;
+    letter-spacing: none;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #00395a;
+    border-top: none;
+    box-shadow: none;
+    transition: all .33s ease;
+}
+.mec-calendar .mec-calendar-side .mec-next-month:hover,
+.mec-calendar .mec-calendar-side .mec-previous-month:hover {
+    color: #00395a;
+}
+.mec-calendar dl{
+    width: 560px;
+}
+.mec-calendar-events-side {
+    background-color: #D78B05;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    border-radius: 34px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.mec-calendar .mec-calendar-events-side .mec-table-side-title, .mec-calendar-events-sec{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    background-color: #D78B05;
+}
+.mec-calendar .mec-calendar-events-side .mec-table-side-day {
+border-color: #fff;
+}
+.mec-color{
+    color: #fff;
+}
+.mec-calendar .mec-event-article{
+    background-color: #FAE69D;
+}
+
+
+/*----------! Partie Post du site !----------*/
+
+body{
+	background-color: white;
+	margin-top: 0px;
+	z-index: -2;
+}
+
+
+/* calendrier*/
+
+.mec-box-calendar.mec-calendar 
+.mec-calendar-events-side{
+
+    display: inline-block;
+    margin-top: 0px;
+}
+
+h1{
+	color:white;
+	margin-top: 15px;
+}
+
+/* Ruban */
+
+
+/* Post box*/ 
+
+.sp-pc-post-box{
+	background-color: #fff;
+	height: 380px;
+}
+
+
+
+/*----------! Partie Copyright Wordpress cachée !----------*/
+
+
+/* Bouton rechercher */
+.search-submit{
+    height: 100%;
+}
