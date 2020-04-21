@@ -1,6 +1,7 @@
 <?php
-/**
- * The template for displaying all pages
+/*
+ * Template Name: Page d'accueuil
+ * description: Template de la page d'accueil
  */
 get_header('home'); ?>
 
