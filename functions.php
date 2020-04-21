@@ -28,3 +28,20 @@ add_action('wp_enqueue_scripts', 'your_theme_enqueue_styles');
 /*  Add your own functions below this line.
     ======================================== */ 
 
+/*---------- Création des zones de widget ----------*/
+
+function header_widgets_init() {
+
+  register_sidebar( array(
+    'name'          => __( 'Image header' ),
+    'id'            => 'image-header-1',
+    'description'   => __( 'Image au dessus du header' ),
+    'before_widget' => '<aside class="img-header">',
+    'after_widget'  => '</aside>',
+    'before_title'  => '<h2 class="img-header">',
+    'after_title'   => '</h2>',
+  ) );
+}
+
+add_action( 'widgets_init', 'header_widgets_init' );
+
