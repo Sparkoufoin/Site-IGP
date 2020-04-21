@@ -57,7 +57,19 @@
 }
 .topbar span.call,
 .topbar span.emain {
-	font-size:12px}
+	font-size:12px
+}
+.fixed-header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    z-index: 999999;
+
+}
 
 /*----------!  Footer  !----------*/
 
