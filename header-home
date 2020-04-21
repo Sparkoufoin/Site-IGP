@@ -91,6 +91,17 @@
 					</div>
 				</div>
 			</div>
+/* --------- Ajout de la zone de widget au dessus du menu ----------*/
+		   <aside class="widget-area">
+	<div class="row">
+		<?php if ( is_active_sidebar( 'image-header-1' ) ) : ?>
+			<div class="img-header" <?php echo esc_attr( $cols ); ?>">
+				<?php dynamic_sidebar( 'image-header-1'); ?>
+			</div>
+        <?php endif; ?> 
+    </div>
+    </aside>
+
 		<?php } ?>
 		<header id="masthead" class="site-header" role="banner">
 			<div class="main-header">
